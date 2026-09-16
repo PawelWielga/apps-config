@@ -1,5 +1,16 @@
 {
   "enabled": true,
   "androidBannerAdUnitId": "ca-app-pub-6497101537742146/4878475438",
-  "configVersion": 1
+  "configVersion": 2,
+  "adMob": {
+    "enabled": true,
+    "androidBannerAdUnitId": "ca-app-pub-6497101537742146/4878475438"
+  },
+  "houseAds": {
+    "enabled": false,
+    "fallbackOnAdMobFailure": true,
+    "everyNthImpression": 10,
+    "selectionMode": "weightedRandom",
+    "items": []
+  }
 }
