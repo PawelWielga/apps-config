@@ -1,13 +1,13 @@
 {
   "enabled": true,
   "androidBannerAdUnitId": "ca-app-pub-6497101537742146/4878475438",
-  "configVersion": 3,
+  "configVersion": 4,
   "adMob": {
-    "enabled": false,
+    "enabled": true,
     "androidBannerAdUnitId": "ca-app-pub-6497101537742146/4878475438"
   },
   "houseAds": {
-    "enabled": true,
+    "enabled": false,
     "fallbackOnAdMobFailure": true,
     "everyNthImpression": 1,
     "selectionMode": "weightedRandom",
