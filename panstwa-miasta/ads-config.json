@@ -1,16 +1,25 @@
 {
   "enabled": true,
   "androidBannerAdUnitId": "ca-app-pub-6497101537742146/4878475438",
-  "configVersion": 2,
+  "configVersion": 3,
   "adMob": {
-    "enabled": true,
+    "enabled": false,
     "androidBannerAdUnitId": "ca-app-pub-6497101537742146/4878475438"
   },
   "houseAds": {
-    "enabled": false,
+    "enabled": true,
     "fallbackOnAdMobFailure": true,
-    "everyNthImpression": 10,
+    "everyNthImpression": 1,
     "selectionMode": "weightedRandom",
-    "items": []
+    "items": [
+      {
+        "id": "czarus-empik",
+        "enabled": true,
+        "weight": 1,
+        "imageUrl": "https://raw.githubusercontent.com/PawelWielga/apps-config/main/panstwa-miasta/banners/czarus-empik-v1.webp",
+        "targetUrl": "https://www.empik.com/czarus-chlopiec-ktorego-mysli-biegna-szybciej-niz-nozki-chruscinska-wielga-ewelina,p1774350180,ebooki-i-mp3-p",
+        "alt": "Poznaj Czarusia — książka o ADHD i emocjach. Sprawdź w Empiku."
+      }
+    ]
   }
 }
