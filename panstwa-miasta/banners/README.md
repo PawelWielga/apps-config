@@ -5,7 +5,7 @@
 - Cover reference: https://cloud-cdn.virtualo.pl/covers/large/1124422.jpg
 - Book information: https://virtualo.pl/ebook/czarus-chlopiec-ktorego-mysli-biegna-szybciej-niz-nozki-ksiazka-o-adhd-i-i682541/
 - Destination: the Empik product URL in `../ads-config.json` (search tracking omitted).
-- Configuration version 3 disables AdMob and serves this single house ad on every impression. Builds must support house ads and have remote ads enabled. Older builds that only understand the legacy AdMob field cannot enforce this selection.
+- Configuration version 4 pauses house ads (0% impressions) while keeping AdMob disabled. The campaign asset and item are retained for later reactivation. Builds must support house ads and have remote ads enabled. Older builds that only understand the legacy AdMob field cannot enforce this selection.
 - The app fetches configuration from `main` at startup; publishing requires both the asset and configuration on `main`. Offline devices may continue using cached configuration until a successful fetch.
 
 ## Generation prompt
